@@ -12,8 +12,73 @@
         <img src="/Imagem/formulario2.png" alt="">
     </header>
     <main>
-       <h1>Faça sua inscrição</h1>
-       <p>Atualize seu curriculo e aumente as chances de conseguir uma vaga</p>
+       <form action="form" method="post">
+           <div id="form1">
+               <h1>Faça sua inscrição</h1>
+               <p>Atualize seu curriculo e aumente as chances de conseguir uma vaga</p>
+                <p id="nome">
+                    <label for="iusu" id="nome">Nome Completo*:</label>
+                    <input type="text" name="usu" id="iusu" minlength="5" maxlength="20" required placeholder="Seu nome completo">
+                </p>
+                <p id="email">
+                    <label for="iemail" id="email1">Email</label>
+                    <input type="email" name="iemail" id="iemail" placeholder="Digite seu Email">
+                </p>
+                <p id="telefone">
+                    <label for="itel" id="tel1">Telefone/Whatsapp*</label>
+                    <input type="tel" name="itel" id="itel" placeholder="ex:(99)99999-9999">
+                </p>
+           </div>
+
+       
+        <div id="form2">
+            <h1>Essa é a URL do seu LinkedIn*</h1>
+            <p>Não é o seu @ nem seu nome, é o link(www)ok?Não
+            não tem perfil nessa rede? só escrever:http://www.naotenhoperfil.com.br
+            </p>
+            <input type="link" name="ilink" id="linkd1">
+            <p>Cidade*</p>
+            <p>Nome Completo da cidade, sem abreviações e sem Estado</p>
+            <input type="text">
+            <br>
+            <label for="iestado" id="iestado">Estado</label>
+            <select id="select">
+                <option value="">Selecione</option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MS">MS</option>
+                    <option value="MT">MT</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+            </select>
+        
+        
+        
+        </div>
+
+
+       </form>
     </main>
 </body>
 </html>
