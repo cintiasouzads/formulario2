@@ -13,33 +13,42 @@
     </header>
     <main>
        <form action="form" method="post">
-           <div id="form1">
-               <h1>Faça sua inscrição</h1>
+    
+               <h3>Faça sua inscrição</h3>
                <p>Atualize seu curriculo e aumente as chances de conseguir uma vaga</p>
-                <p id="nome">
+                <br>
+                <div id="form1">
+               <p id="nome">
                     <label for="iusu" id="nome">Nome Completo*:</label>
                     <input type="text" name="usu" id="iusu" minlength="5" maxlength="20" required placeholder="Seu nome completo">
-                </p>
+                    </p>
+                    
                 <p id="email">
-                    <label for="iemail" id="email1">Email</label>
+                    <label for="iemail" id="email1">Email*:</label>
                     <input type="email" name="iemail" id="iemail" placeholder="Digite seu Email">
                 </p>
+                
                 <p id="telefone">
-                    <label for="itel" id="tel1">Telefone/Whatsapp*</label>
+                    <label for="itel" id="tel1">Telefone/Whatsapp*:</label>
                     <input type="tel" name="itel" id="itel" placeholder="ex:(99)99999-9999">
                 </p>
            </div>
+           <br>
+           <br>
 
        
         <div id="form2">
-            <h1>Essa é a URL do seu LinkedIn*</h1>
-            <p>Não é o seu @ nem seu nome, é o link(www)ok?Não
-            não tem perfil nessa rede? só escrever:http://www.naotenhoperfil.com.br
+            <h3>Essa é a URL do seu LinkedIn*</h3>
+            <p>Não é o seu @ nem seu nome, é o link(www)ok?
+            não tem perfil nessa rede? só escrever: http://www.naotenhoperfil.com.br
             </p>
             <input type="link" name="ilink" id="linkd1">
-            <p>Cidade*</p>
+            <br>
+            <br>
+            <h3>Cidade*</h3>
             <p>Nome Completo da cidade, sem abreviações e sem Estado</p>
-            <input type="text">
+            <input type="text" id="iest">
+            <br>
             <br>
             <label for="iestado" id="iestado">Estado</label>
             <select id="select">
@@ -72,9 +81,83 @@
                     <option value="SE">SE</option>
                     <option value="TO">TO</option>
             </select>
-        
-        
-        
+            <br>
+            <br>
+            <h3>Data de Nascimento</h3>
+            <input type="date" name="inasc" id="inasc">
+            <br>
+            <br>
+
+            <h3>Carteira de Habilitação</h3>
+            <input type="checkbox" name="" id="check">A-moto <br>
+            <input type="checkbox" name="" id="check"> B-carro <br>
+            <input type="checkbox" name="" id="checkc">C-caminhão<br>
+            <input type="checkbox" name="" id="checkd">D-ônibus <br>
+            <input type="checkbox" name="" id="check">E-carreta <br>
+            <input type="checkbox" name="" id="checkf">Não possuo <br>
+                <br>
+                <br>
+            <h3>Sua etnia(cor que se autodeclara*)</h3>
+            <select id="ietnia">
+            <option value="">Selecione</option>
+            <option value="">Preta</option>
+            <option value="">Parda</option>
+            <option value="">Indígena</option>
+            <option value="">Branco</option>
+            </select>
+            <br>
+            <br>
+            <h3>Em qual gênero você se identifica?*</h3>
+            <p>CIS - pessoa que se idenifica, em todos os aspectos, com seu "gênero de nascença" </p>
+            <p>TRANS -  pessoa que não se identifica com o gênero que lhe foi atribuido</p>
+            <p>NÃO-BINÁRIO - identidade de gênero e expressão de gênero não são limitados ao masculino e feminino</p>
+            <input type="checkbox" name="imucis" id="imucis"> Mulher CIS
+            <br>
+            <input type="checkbox" name="imutrans" id="imutrans"> Mulher TRANS
+            <br>
+            <input type="checkbox" name="inaobi" id="inaobi"> Não-binário
+            <br>
+            <br>
+
+            <h3>Você tem alguma deficiência?</h3>
+            <input type="checkbox" name="isim" id="isim">Sim
+            <br>
+            <input type="checkbox" name="inao" id="inao">Não
+            <br>
+            <br>
+            <h3>Fale sobre você*</h3>
+            <p>Em poucas palavras, fale sobre você</p>
+            <textarea name="" id="" cols="30" rows="10">Escreva aqui</textarea>
+            <br>
+            <br>
+            <h3>Qual é o seu grau de instrução</h3>
+            <select name="igrau" id="igrau">
+                <option value="">Selecione</option>
+                <option value="">Ensino fundamental incompleto</option>
+                <option value="">Ensino fundamental completo</option>
+                <option value="">Ensino médio incompleto</option>
+                <option value="">Ensino médio completo</option>
+                <option value="">Ensino tecnico incompleto</option>
+                <option value="">Ensino tecnico completo</option>
+                <option value="">Ensino Superior incompleto</option>
+                <option value="">Ensino Superior completo</option>
+            </select>
+            <br>
+            <br>
+            <h3>Fala outro idioma</h3>
+            <select name="idioma" id="idioma">
+                <option value="">Selecione</option>
+                <option value="">Inglês</option>
+                <option value="">Espanhol</option>
+                <option value="">Italiano</option>
+                <option value="">Outros</option>
+                </select>
+                <h3>Eu autorizo que...*</h3>
+                <input type="checkbox" name="iauto" id="iauto">Os dados sejam compartilhados em empresas e recrutadores
+                <br>
+                <br>
+
+                <button type="submit" id="atu">Atualizar meu perfil</button>
         </div>
 
 

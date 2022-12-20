@@ -1,11 +1,79 @@
 *{
     margin:0;
-    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header img{
   height: 10em;
   width: 100%;
-  background-position: left;
+  background-position: center center;
+}
 
+form{
+  text-align: center;
+  border: 2px solid rgba(128, 128, 128, 0.829);
+  margin: 08px;
+}
+
+#form1{
+  border: 2px solid;
+  background-color: rgb(214, 200, 200);
+  border: none;
+  padding: 20px;
+
+}
+
+#iemail{
+  margin-left: 30px;
+}
+
+#iusu{
+  border-radius: 05px;
+  background-color:lightgray;
+  color: black;
+  margin-bottom: 07px;
+}
+
+#iemail{
+  border-radius: 05px;
+  background-color: lightgrey;
+  color: black;
+  margin-bottom: 07px;
+}
+
+#itel{
+  border-radius: 05px;
+  background-color: lightgrey;
+  color: black;
+}
+
+#linkd1{
+  border-radius:  05px;
+  border-color: black;
+ background-color: lightgrey;
+}
+
+#iest{
+  border-radius: 05px;
+  border-color:black;
+  background-color: lightgray;
+}
+
+#checkc{
+  margin-left: 30px;
+}
+
+#checkd{
+margin-left:5px;
+}
+
+#checkf{
+  margin-left:20px ;
+}
+
+#atu{
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgb(81, 81, 247);
+  color: white;
 }
