@@ -1,3 +1,5 @@
+@import "UFT-8"
+
 *{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,19 +9,30 @@ header img{
   height: 10em;
   width: 100%;
   background-position: center center;
+ 
+}
+
+#faca{
+  padding: 10px;
 }
 
 form{
   text-align: center;
-  border: 2px solid rgba(128, 128, 128, 0.829);
   margin: 08px;
 }
 
 #form1{
   border: 2px solid;
-  background-color: rgb(214, 200, 200);
   border: none;
+  background-color: rgb(214, 200, 200);
   padding: 20px;
+  font-weight: 400;
+}
+
+#form2{
+  background-color: rgb(214, 200, 200);
+  padding: 20px;
+  font-weight: 400;
 
 }
 
@@ -73,6 +86,7 @@ margin-left:5px;
 
 #atu{
   border-radius: 10px;
+  box-shadow: none;
   padding: 5px;
   background-color: rgb(81, 81, 247);
   color: white;
