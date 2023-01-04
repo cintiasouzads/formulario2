@@ -6,14 +6,16 @@
 }
 
 header img{
-  height: 10em;
+  height:100%;
   width: 100%;
-  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
  
 }
 
 #faca{
   padding: 10px;
+  
 }
 
 form{
@@ -22,10 +24,9 @@ form{
 }
 
 #form1{
-  border: 2px solid;
   border: none;
   background-color: rgb(214, 200, 200);
-  padding: 20px;
+  padding: 10px;
   font-weight: 400;
 }
 
@@ -87,7 +88,8 @@ margin-left:5px;
 #atu{
   border-radius: 10px;
   box-shadow: none;
-  padding: 5px;
-  background-color: rgb(81, 81, 247);
+  padding: 15px;
+  font-size: medium;
+  background-color: rgb(27, 27, 172);
   color: white;
 }
