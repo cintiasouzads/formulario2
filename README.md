@@ -27,8 +27,6 @@ formulário para atualização de curriculo, feito com HTML e CSS. Foi utilizado
     <br>
 ![tablet3](https://user-images.githubusercontent.com/99051178/216426496-50587e37-b819-497a-a745-4a4719a7d89e.png)
     <br>
-![tablet4](https://user-images.githubusercontent.com/99051178/216426499-c0a456e6-e118-45c2-8bb2-4c8475d7b580.png)
-    <br>
 ![tablet5](https://user-images.githubusercontent.com/99051178/216426504-bcb5498f-7ab7-4c3e-96db-575406e5e6f1.png)
   <br>
   <br>
